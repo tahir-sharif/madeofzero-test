@@ -12,6 +12,9 @@ import { Media } from './collections/Media'
 import { Quizzes } from './collections/Quizes'
 import { QuizResults } from './collections/QuizResults'
 
+import dotenv from "dotenv";
+dotenv.config();
+
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
 
